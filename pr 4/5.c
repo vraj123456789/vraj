@@ -18,11 +18,7 @@ void main()
 		
 		for(l=4; l>=i; l--)
 		{
-		     for(m=4; m>=l; m--)
-		     {
-		     	printf("%d ",m);
-		    
-			 }
+		    printf("%d ",l);
 		}
 		printf("\n");
 		
