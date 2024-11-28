@@ -1,16 +1,21 @@
 #include<stdio.h>
+
+int a(int n)
+{
+	int b,h,t;
+	t=(1/2)*b*h;
+	
+	return t;
+	
+}
 void main()
 {
-	int n,a,b,sum;
-	printf("enter n:");
-	scanf("%d",&n);
+	int b,h;
+	printf("enter b:");
+	scanf("%d",&b);
 	
-	a=n%10;
-	while(n<9)
-	{
-		b=n/10;
-		
-	}
-	sum=a+b;
-	printf("your ans is %d",sum);
+	printf("enter h:");
+	scanf("%d",&h);
+	
+	int t= a;
 }

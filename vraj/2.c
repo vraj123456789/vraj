@@ -1,17 +1,26 @@
 #include<stdio.h>
 
+int a(int n)
+{
+	int i=1,sum=0;
+	for(i=1; i<=n; i++)
+	{
+		
+		sum=i+sum;	
+	}
+	
+	return sum;
+	
+}
 void main()
 {
-	int n,age;
-	printf("enter n:");
-	scanf("%d",&n);
+	int n;
 	
-	if(n>=18 && n<121)
-	{
-		printf("you are eligible for vote");
-	}
-	else
-	{
-		printf("you are not eligible for vote");
-	}
+	printf("enter n:");
+	scanf("%d",&n);	
+	int a[n];
+	
+	int sum = a[n];
+	
+	printf("n number sum is:%d",sum);
 }

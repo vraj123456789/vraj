@@ -1,17 +1,16 @@
 #include<stdio.h>
+
 void main()
 {
-	int a,b;
-	printf("enter a:");
-	scanf("%d",&a);
-	printf("enter b:");
-	scanf("%d",&b);
+	int i,j;
 	
-	a=a+b;
-	b=a-b;
-	a=a-b;
-	
-	printf("a=%d\n",a);
-	printf("b=%d",b);
-	
+	for(i=5; i>=1; i--)
+	{
+		for(j=5; j>=i; j--)
+		{
+			printf("%d ",j);
+			
+		}
+		printf("\n");
+	}
 }
