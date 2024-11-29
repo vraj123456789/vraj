@@ -1,26 +1,14 @@
 #include<stdio.h>
 
-int a(int n)
-{
-	int i=1,sum=0;
-	for(i=1; i<=n; i++)
-	{
-		
-		sum=i+sum;	
-	}
-	
-	return sum;
-	
-}
 void main()
 {
-	int n;
-	
-	printf("enter n:");
-	scanf("%d",&n);	
-	int a[n];
-	
-	int sum = a[n];
-	
-	printf("n number sum is:%d",sum);
+	int i,j;
+	for(i=5; i>=1; i--)
+	{
+		for(j=5; j>=i; j--)
+		{
+			printf("%d ",j);
+		}
+		printf("\n");
+	}
 }
