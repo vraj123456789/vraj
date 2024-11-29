@@ -1,16 +1,27 @@
 #include<stdio.h>
 
+
+int a(int n)
+{
+	int i,factoriyal=1;
+
+	
+	for(i=1; i<=n; i++)
+	{
+		factoriyal=factoriyal*i;
+		
+	}
+	return factoriyal;
+}
+
 void main()
 {
-	int i,j;
+	int n;
+	printf("enter a positive number :");
+	scanf("%d",&n);
 	
-	for(i=5; i>=1; i--)
-	{
-		for(j=5; j>=i; j--)
-		{
-			printf("%d ",j);
-			
-		}
-		printf("\n");
-	}
+	int factoriyal = a(n);
+	
+	printf("factoriyal value is %d",factoriyal);
+	
 }
